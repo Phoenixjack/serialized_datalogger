@@ -159,11 +159,10 @@ The time file is only created after a valid timestamp is provided.
 
 ## Repository Contents
 
-| File                                      | Purpose                                                     |
-| ----------------------------------------- | ----------------------------------------------------------- |
-| `PhoenixJack_serializeddatalogger_V2.ino` | Serial demo / test interface                                |
-| `PhoenixJack_serializeddatalogger_V2.h`   | SD card session logging helper                              |
-| `PhoenixJack_serializeddatalogger_V1.h`   | Older version; retained only for reference if still present |
+| File                       | Purpose                                                     |
+| -------------------------- | ----------------------------------------------------------- |
+| `serializeddatalogger.ino` | Serial demo / test interface                                |
+| `serializeddatalogger.h`   | SD card session logging helper                              |
 
 ## Known Limitations
 
