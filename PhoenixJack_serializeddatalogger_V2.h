@@ -353,8 +353,8 @@ bool sd::write(String* data_to_save) {
   return isReady();
 };
 bool sd::write(String data_to_save) {
-  return write(data_to_save);
-};
+  return write(&data_to_save);
+}
 uint32_t sd::get_curr_file_num() {
   return _curr_filenum;
 };
